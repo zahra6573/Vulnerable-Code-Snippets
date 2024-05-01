@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   const file = readFile(req.query.name).toString()   
-  res.send(file)
+  resp.render()
 })
 
 
